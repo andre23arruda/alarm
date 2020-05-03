@@ -3,7 +3,6 @@ body{
     color: white;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
 h1{
@@ -14,8 +13,6 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-
 }
 
 .time-container #time-value{
@@ -26,9 +23,7 @@ h1{
     text-align: center;
     font-size: 70pt;
     width: 220px;
-    margin: 60px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px
 }
 
 .time-container input[type=button]{
@@ -39,7 +34,7 @@ h1{
     margin: 10px;
     border-color: black;
     font-size: 60pt;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .buttons-container{
