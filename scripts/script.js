@@ -1,7 +1,7 @@
 var t1 = null
 var t2 = null
 
-var audio = new Audio('../assets/alarm.mp3')
+var audio = new Audio('https://github.com/andre23arruda/timer/blob/gh-pages/assets/alarm.mp3')
 
 var blink_value = true
 var data_audio = null
