@@ -3,6 +3,7 @@ body{
     color: white;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: auto;
 }
 
 h1{
@@ -32,7 +33,7 @@ h1{
     border-radius: 50px;
     font-size: 20pt;
     margin: 10px;
-    border-color: black;
+    border: none;
     font-size: 60pt;
     vertical-align: top;
 }
@@ -50,7 +51,7 @@ h1{
     margin: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-color: black;
+    border: none;
 }
 
 #button-start:hover{
