@@ -1,6 +1,7 @@
 var t1 = null
 var t2 = null
 
+// var audio = new Audio('../assets/alarm.mp3')
 var audio = new Audio('http://soundbible.com/grab.php?id=2197&type=mp3')
 
 var blink_value = true
@@ -66,6 +67,7 @@ function start_count(){
 function play_song(){
     if(!(data_audio)){
         audio.play()
+        audio.loop = true
         data_audio = audio
         blink_color(true)
     }
