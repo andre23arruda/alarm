@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/desktop.css" media="screen">
+    <link rel="stylesheet" href="./styles/mobile.css" media="(max-width: 700px)">
     <link rel="shortcut icon" href='assets/alarm.ico'/>
     <title>Alarm</title>
 </head>
@@ -17,7 +18,7 @@
     <div class="time-container">
         <input type="button" value="+" onclick="add_seconds('+')">
             <input type="text" name="" id="time-value" value="00:00">
-        <input type="button" value="-" onclick="add_seconds('-')">
+        <input type="button" value="-" onclick="add_seconds('–')">
     </div>
 
     <div class="buttons-container">

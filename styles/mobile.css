@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 400px;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+.time-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-container #time-value{
+    background-color: black;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 70pt;
+    width: 220px;
+    margin: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.time-container input[type=button]{
+
+    border-radius: 40px;
+    margin: 2px;
+    border: none;
+    font-size: 40pt;
+    text-align: center;
+    line-height: 0px;
+    vertical-align: middle;
+    padding: 10px 15px;
+}
+
+.buttons-container{
+    display: block;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons-container input[type=button]{
+    width: 200px;
+    border-radius: 50px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#button-start:hover{
+    background-color: green;
+    color: white;
+}
+
+#button-stop:hover{
+    background-color: brown;
+    color: white;
+}
+
+input[type=button]:hover{
+    background-color: rgb(88, 82, 82);
+    cursor: pointer;
+}
+
+input[type=button]:focus{
+    outline:0;
+}
+
+
+footer{
+    /* margin-top: 0px; */
+    font-size: 10pt;
+    margin-bottom: 0px;
+}
